@@ -1,0 +1,235 @@
+--------------------------OK------------------------------
+
+All Template simbols found
+
+--------------------------OK------------------------------
+
+DCF template Data 0 [First-Level-Provider]
+DCF template Data 1 INS=
+DCF template Data 2 INSINFO=
+DCF template Data 3 INSINFO2=
+DCF template Data 4 IVAR2=
+DCF template Data 5 IRTO=
+DCF template Data 6 IASO=
+DCF template Data 7 IArchive=
+DCF template Data 8 IText=
+DCF template Data 9 IAlarmData=
+DCF template Data 10 ICCDMRT=
+DCF template Data 11 IHIERARCHY=
+DCF template Data 12 IOPTIONS=
+DCF template Data 13 ICSIG=
+DCF template Data 14 IArchiveControl=
+DCF template Data 15 IUABasic=
+DCF template Data 16 ITagTable=
+DCF template Data 17 INSINFO2ALG=
+DCF template Data 18 INSINFO2TLG=
+DCF template Data 19 IEVENT=
+DCF template Data 20 ICCProfileStorage=
+DCF template Data 21 ;******************************************************************
+DCF template Data 22 ; INS provider
+DCF template Data 23 ;******************************************************************
+DCF template Data 24 [INS-First]
+DCF template Data 25 IID={47838AA5-41EA-11D0-B59B-0020AFBE27D7}
+DCF template Data 26 Server = @RTONS
+DCF template Data 27 Default=
+DCF template Data 28 [INS-Second]
+DCF template Data 29 ;******************************************************************
+DCF template Data 30 ; INSInfo provider
+DCF template Data 31 ;******************************************************************
+DCF template Data 32 [INSINFO-First]
+DCF template Data 33 IID={47838AA5-41EA-11D0-B59B-0020AFBE27D8}
+DCF template Data 34 Server = @RTONS
+DCF template Data 35 Default=
+DCF template Data 36 [INSINFO-Second]
+DCF template Data 37 ;******************************************************************
+DCF template Data 38 ; INSInfo2 provider
+DCF template Data 39 ;******************************************************************
+DCF template Data 40 [INSINFO2-First]
+DCF template Data 41 Server= @Siemens.INSInf2Mx
+DCF template Data 42 IID = {47838A74-41EA-11D0-B59B-0020AFBE27D7}
+DCF template Data 43 Default =
+DCF template Data 44 [INSINFO2-Second]
+DCF template Data 45 ;******************************************************************
+DCF template Data 46 ; INSINFO2ALG provider
+DCF template Data 47 ;******************************************************************
+DCF template Data 48 [INSINFO2ALG-First]
+DCF template Data 49 Server= @Siemens.INSInf2Mx
+DCF template Data 50 IID = {47838A74-41EA-11D0-B59B-0020AFBE27D7}
+DCF template Data 51 Default =
+DCF template Data 52 [INSINFO2ALG-Second]
+DCF template Data 53 ;******************************************************************
+DCF template Data 54 ; INSINFO2TLG provider
+DCF template Data 55 ;******************************************************************
+DCF template Data 56 [INSINFO2TLG-First]
+DCF template Data 57 Server= @Siemens.INSInf2Mx
+DCF template Data 58 IID = {47838A74-41EA-11D0-B59B-0020AFBE27D7}
+DCF template Data 59 Default =
+DCF template Data 60 [INSINFO2TLG-Second]
+DCF template Data 61 ;******************************************************************
+DCF template Data 62 ; IVar provider
+DCF template Data 63 ;******************************************************************
+DCF template Data 64 [IVAR2-First]
+DCF template Data 65 IID={23EBEDE0-BD9B-11D1-BD5A-0080C7F7898A}
+DCF template Data 66 Server = @Simatic.IVarMx.1
+DCF template Data 67 [IVAR2-Second]
+DCF template Data 68 ;******************************************************************
+DCF template Data 69 ; IRTO provider
+DCF template Data 70 ;******************************************************************
+DCF template Data 71 [IRTO-First]
+DCF template Data 72 IID={47838A50-41EA-11D0-B59B-0020AFBE27D0}
+DCF template Data 73 Server = @RTONS
+DCF template Data 74 [IRTO-Second]
+DCF template Data 75 ;******************************************************************
+DCF template Data 76 ; IASO provider
+DCF template Data 77 ; This are only dummy values
+DCF template Data 78 ;******************************************************************
+DCF template Data 79 [IASO-First]
+DCF template Data 80 IID={63A87800-23D9-11d3-9026-0080C70ACEA7}
+DCF template Data 81 Server = @WinCC.Not.Used.1
+DCF template Data 82 [IASO-Second]
+DCF template Data 83 ;******************************************************************
+DCF template Data 84 ; IArchive provider
+DCF template Data 85 ;******************************************************************
+DCF template Data 86 [IArchive-First]
+DCF template Data 87 IID={2179ABD3-9621-11D1-B57D-00A0241CD963}
+DCF template Data 88 Server = @ScIArchiveMx.ScIArchiveMx.1
+DCF template Data 89 [IArchive-Second]
+DCF template Data 90 ;******************************************************************
+DCF template Data 91 ; IText
+DCF template Data 92 ;******************************************************************
+DCF template Data 93 [IText-First]
+DCF template Data 94 IID={713E052E-9D3A-11D1-924A-0020AFCB5B70}
+DCF template Data 95 Server = @Simatic.ITextMx.1
+DCF template Data 96 [IText-Second]
+DCF template Data 97 ;******************************************************************
+DCF template Data 98 ; IAlarmData
+DCF template Data 99 ;******************************************************************
+DCF template Data 100 [IAlarmData-First]
+DCF template Data 101 IID={E2B3D910-A6A4-11D1-829A-00A0C9109A01}
+DCF template Data 102 Server = @Simatic.IAlarmDataMx.1
+DCF template Data 103 [IAlarmData-Second]
+DCF template Data 104 ;******************************************************************
+DCF template Data 105 ; ICCDmRt provider
+DCF template Data 106 ;******************************************************************
+DCF template Data 107 [ICCDMRT-First]
+DCF template Data 108 IID={F0928140-4603-11D1-AE59-006097662572}
+DCF template Data 109 Server = @WinCC.CCDmRtMx.1
+DCF template Data 110 [ICCDMRT-Second]
+DCF template Data 111 ;******************************************************************
+DCF template Data 112 ; IHierarchy provider
+DCF template Data 113 ;******************************************************************
+DCF template Data 114 [IHIERARCHY-First]
+DCF template Data 115 IID={823576D7-FC6E-11d1-996A-0060085D39EC}
+DCF template Data 116 Server = @WinCC.CCHierarchySrv.1
+DCF template Data 117 [IHIERARCHY-Second]
+DCF template Data 118 ;******************************************************************
+DCF template Data 119 ; IOptions provider
+DCF template Data 120 ;******************************************************************
+DCF template Data 121 [IOPTIONS-First]
+DCF template Data 122 IID={F0084793-BE5F-11D1-BDD4-0060085D395F}
+DCF template Data 123 Server = @WinCC.CCCfgAsoRw.1
+DCF template Data 124 [IOPTIONS-Second]
+DCF template Data 125 ;******************************************************************
+DCF template Data 126 ; ICSig provider
+DCF template Data 127 ;******************************************************************
+DCF template Data 128 [ICSIG-First]
+DCF template Data 129 IID={77C294A1-1FD5-11d2-983F-0060085D48B9}
+DCF template Data 130 Server = @WinCC.CCCSigMx.1
+DCF template Data 131 [ICSIG-Second]
+DCF template Data 132 ;******************************************************************
+DCF template Data 133 ; IArchiveControl provider
+DCF template Data 134 ;******************************************************************
+DCF template Data 135 [IARCHIVECONTROL-First]
+DCF template Data 136 IID={E055C7F3-D55B-11D2-94ED-00105AB05613}
+DCF template Data 137 Server = @WinCC.CArchiveControl.1
+DCF template Data 138 [IARCHIVECONTROL-Second]
+DCF template Data 139 ;******************************************************************
+DCF template Data 140 ; IUABasic provider
+DCF template Data 141 ;******************************************************************
+DCF template Data 142 [IUABasic-First]
+DCF template Data 143 IID={0F6EAA35-F312-11D2-8717-0060087315EF}
+DCF template Data 144 Server = @ScIUaBasicMx.ScIUaBasicMx.1
+DCF template Data 145 ;******************************************************************
+DCF template Data 146 ; ITagTable provider
+DCF template Data 147 ;******************************************************************
+DCF template Data 148 [ITagTable-First]
+DCF template Data 149 IID={A7C6FA21-9333-11D2-B5E7-00A02450CEB6}
+DCF template Data 150 Server = @WinCC.CCTTMx.1
+DCF template Data 151 [ITagTable-Second]
+DCF template Data 152 ;******************************************************************
+DCF template Data 153 ; IEVENT provider
+DCF template Data 154 ;******************************************************************
+DCF template Data 155 [IEVENT-First]
+DCF template Data 156 IID={DFD46CF1-D79B-11d2-A48D-00609709E40B}
+DCF template Data 157 Server = @SCSIEventDHX.IEventDH.1
+DCF template Data 158 [IEVENT-Second]
+DCF template Data 159 ;******************************************************************
+DCF template Data 160 ; ICCProfileStorage provider
+DCF template Data 161 ;******************************************************************
+DCF template Data 162 [ICCProfileStorage-First]
+DCF template Data 163 IID={4765BB58-868D-49AD-B21C-405E3B52F5F1}
+DCF template Data 164 Server = @SCSICCProfileStorageMuxX.CICCProfileStorageMux.1
+DCF template Data 165 Default=
+DCF template Data 166 [ICCProfileStorage-Second]
+DCF template Data 167 ;******************************************************************
+DCF template Data 168 ; Distribution of the servers to their host
+DCF template Data 169 ;******************************************************************
+DCF template Data 170 [ServerHosts]
+DCF template Data 171 Server1=@RTONS					localhost
+DCF template Data 172 Server2=@Simatic.IVarMx.1				localhost
+DCF template Data 173 Server3=@ScIArchiveMx.ScIArchiveMx.1	localhost
+DCF template Data 174 Server4=@Simatic.ITextMx.1				localhost
+DCF template Data 175 Server5=@Simatic.IAlarmDataMx.1			localhost
+DCF template Data 176 Server6=@WinCC.CCDmRtMx.1				localhost
+DCF template Data 177 Server7=@WinCC.Not.Used.1				localhost
+DCF template Data 178 Server8=@WinCC.CCHierarchySrv.1			localhost
+DCF template Data 179 Server9=@WinCC.CCCfgAsoRw.1				localhost
+DCF template Data 180 Server10=@WinCC.CCCSigMx.1				localhost
+DCF template Data 181 Server11=@WinCC.CArchiveControl.1		localhost
+DCF template Data 182 Server12=@ScIUaBasicMx.ScIUaBasicMx.1	localhost
+DCF template Data 183 Server13=@Siemens.INSInf2Mx				localhost
+DCF template Data 184 Server14=@WinCC.CCTTMx.1				localhost
+DCF template Data 185 Server15=<?XML><Cfg><ProgId>WinCC.DmNSInfo.1</ProgId><Prj></Prj><Srv>WITHPACKAGES</Srv><Red>!WinCC!</Red></Cfg> localhost
+DCF template Data 186 Server16=<?XML><Cfg><ProgId>WinCC.AlgNSInfo2.1</ProgId><Prj></Prj><Red>!WinCC!</Red></Cfg> localhost
+DCF template Data 187 Server17=<?XML><Cfg><ProgId>WinCC.TlgNSInfo2.1</ProgId><Prj></Prj><Red>!WinCC!</Red></Cfg> localhost
+DCF template Data 188 Server18=@SCSIEventDHX.IEventDH.1			localhost
+DCF template Data 189 Server19=<?XML><Cfg><ProgId>WinCC.EventServer.1</ProgId><Prj></Prj></Cfg> localhost
+DCF template Data 190 Server20=@SCSICCProfileStorageMuxX.CICCProfileStorageMux.1	localhost
+DCF template Data 191 ;******************************************************************
+DCF template Data 192 ; Redundancy of hosts
+DCF template Data 193 ;******************************************************************
+DCF template Data 194 [RedundantHosts]
+DCF template Data 195 ;******************************************************************
+DCF template Data 196 ; Distribution of hosts
+DCF template Data 197 ;******************************************************************
+DCF template Data 198 [DistributionHosts]
+DCF template Data 199 ;******************************************************************
+DCF template Data 200 ; server prefixes
+DCF template Data 201 ;******************************************************************
+DCF template Data 202 [INS-Prefix]
+DCF template Data 203 [INSINFO-Prefix]
+DCF template Data 204 [INSINFO2-Prefix]
+DCF template Data 205 Prefix1=@LocalMachine:: <?XML><Cfg><ProgId>WinCC.DmNSInfo.1</ProgId><Prj></Prj><Srv>WITHPACKAGES</Srv><Red>!WinCC!</Red></Cfg>
+DCF template Data 206 [INSINFO2ALG-Prefix]
+DCF template Data 207 Prefix1=@LocalMachine:: <?XML><Cfg><ProgId>WinCC.AlgNSInfo2.1</ProgId><Prj></Prj><Red>!WinCC!</Red></Cfg>
+DCF template Data 208 [INSINFO2TLG-Prefix]
+DCF template Data 209 Prefix1=@LocalMachine:: <?XML><Cfg><ProgId>WinCC.TlgNSInfo2.1</ProgId><Prj></Prj><Red>!WinCC!</Red></Cfg>
+DCF template Data 210 [IVAR2-Prefix]
+DCF template Data 211 [IRTO-Prefix]
+DCF template Data 212 [IASO-Prefix]
+DCF template Data 213 [IArchive-Prefix]
+DCF template Data 214 [IText-Prefix]
+DCF template Data 215 [IAlarmData-Prefix]
+DCF template Data 216 [ICCDmRt-Prefix]
+DCF template Data 217 [IHIERARCHY-Prefix]
+DCF template Data 218 [IOptions-Prefix]
+DCF template Data 219 [ICSIG-Prefix]
+DCF template Data 220 [IArchiveControl-Prefix]
+DCF template Data 221 [IUABasic-Prefix]
+DCF template Data 222 [ITagTable-Prefix]
+DCF template Data 223 [IEVENT-Prefix]
+DCF template Data 224 Prefix1=@LocalMachine:: <?XML><Cfg><ProgId>WinCC.EventServer.1</ProgId><Prj></Prj></Cfg>
+DCF template Data 225 [ICCProfileStorage-Prefix]
+DCF template Data 226 [Digest-Section]
+DCF template Data 227 Signature =	
+DCF template Data 228 PublicKey = 06020000002400005253413100020000010001005354A2F4049861F9C3DB65779B54020815D8892F035271490443AF4CEE0FCB422C6531DD6588FACCCD47EAB525F4EBE60152FD0EEE28ACD159929A6CB1F93AAE
